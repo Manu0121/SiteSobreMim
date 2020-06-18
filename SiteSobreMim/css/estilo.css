@@ -13,6 +13,7 @@ header{
 	align-items: center;
 	text-align: center;
 	padding: 30px;
+	background-color: #fff;
 
 }
 h1, h2, h3,h4{
@@ -127,6 +128,7 @@ nav ul{
 	
 }
 #especialidades {
+	background-color: #fff;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
@@ -187,6 +189,7 @@ nav ul{
 
 
 #competencias{
+	background-color: #B0C4DE;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -237,12 +240,216 @@ nav ul{
 	text-align: center;
 }
 #competencias .comp{
-	width: 33.3333333%;
+	width: 33%;
+	text-align: center;
+}
+
+.arvore img{
+	max-width:250px;
+    max-height:250px;
+}
+
+#trab img{
+	max-width:300px;
+    max-height:300px;
+    width: 100%;
+    margin-bottom: 30px;
+    marker-end: 20px;
+}
+
+#trab{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px; 
+	background-color: #fff;
+}
+#trab div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
+#trab h2 {
+	font-size: 2em;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#trab h3{
+	font-size: 1em;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#trab div {
+	flex-grow: 1;
+	flex-basis: 150px;
+	padding: 0 10px;
+}
+
+
+#trab{
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+#trab h2,h3{
+	width: 100%;
+	text-align: center;
+}
+#trab .mirror, .arvore, .port{
+	width: 33%;
+	text-align: center;
+}
+
+.mirror img:hover, .arvore img:hover, .port img:hover{
+	-ms-transform:rotate(-10deg);
+	-webkit-transform:rotate(-10deg);
+	-moz-transform:rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+#hobbies{
+	background-color: #B0C4DE;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px; 
+}
+#hobbies img{
+	margin: 10px 0;
+	max-width:125px;
+    max-height:175px;
+}
+
+#hobbies p {
+	line-height: 1.5;
+	margin: 2vh;
+	font-size: 1.2em;
+}
+
+#hobbies div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
+#hobbies h2 {
+	font-size: 2em;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#hobbies h3, p{
+	font-size: 1em;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#hobbies div {
+	flex-grow: 1;
+	flex-basis: 150px;
+	padding: 0 10px;
+}
+
+
+#hobbies{
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+#hobbies h2,h3{
+	width: 100%;
+	text-align: center;
+}
+
+#contact img{
+	max-width:75px;
+    max-height:125px;
+    width: 100%;
+    margin-bottom: 0;
+}
+#contact{
+	align-items: center;
+}
+
+#contact{
+	background-color: #fff
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px; 
+}
+#contact div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+	width: 100%
+}
+#contact h2 {
+	font-size: 2em;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#contact h3,p {
+	font-size: 1em;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#contact{
+	align-items: center;
+}
+#contact{
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+#contact div {
+	flex-grow: 1;
+	flex-basis: 150px;
+	padding: 0 10px;
+	width: 100%
+}
+#contact a{
+	text-decoration: none;
+}
+#contact p{
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 1.5;	l
+}
+
+
+#contact h2,h3{
+	width: 100%;
 	text-align: center;
 }
 
 
-
+footer{
+	text-align: center;
+	background-color: #E6E6FA;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #4169E1;
+}
 
 @media screen and(min-width: 768px){
 	nav{
